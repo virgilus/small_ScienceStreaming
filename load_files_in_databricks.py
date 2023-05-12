@@ -1,0 +1,6 @@
+abo_ddf = spark.read.parquet("dbfs:/FileStore/tables/abonnements.parquet")
+contacts_ddf = spark.read.parquet("dbfs:/FileStore/tables/contacts.parquet")
+cours_ddf = spark.read.parquet("dbfs:/FileStore/tables/cours.parquet")
+planning_ddf = spark.read.parquet("dbfs:/FileStore/tables/planning.parquet")
+profs_ddf = spark.read.parquet("dbfs:/FileStore/tables/profs.parquet")
+visionnages_ddf = spark.read.parquet("dbfs:/FileStore/tables/visionnages.parquet")
